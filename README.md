@@ -10,6 +10,7 @@
 | js    | process. |
 | java. | backend. |
 | ----- | -------- |
+|       |          |
 
 <br>
 <img src="https://event.multicampus.com/backend/images/promotion/PR010149/pc/visual-06.png">
