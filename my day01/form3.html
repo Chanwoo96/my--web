@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="check">
+        <table border="1">
+            <tr>
+                <td align="center"> ID
+                </td>
+                <td><input type="text" name="id">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    PW
+                </td>
+                <td><input type="text" name="pw"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><input type="submit" value="로그인"></td>
+            </tr>
+        </table>
+    </form><br>
+    <form action="member">
+        <table align="center">
+            <tr align="center"><td colspan="2"><h3>회원가입</h3></td></tr>
+            <tr>
+                <td>가입할 ID</td>
+                <td><input type="text" name="id"></td>
+            </tr>
+            <tr>
+                <td>가입할 PW</td>
+                <td><input type="password" name="pw"></td>
+                
+            </tr>
+            <tr>
+                <td>가입할 name</td>
+                <td><input type="text" name="name"></td>
+                
+            </tr>
+            <tr>
+                <td>성별</td>
+                <td><input type="radio" name="gender" value="man"> 남
+                    <input type="radio" name="gender" value="woman"> 여</td>
+                
+            </tr>
+            <tr>
+                <td> 휴대폰 통신사</td>
+                <td><select name="tel">
+                    <option value="sktelecom">SKT</option>
+                    <option value="kt">KT</option>
+                    <option value="lgtelecom">LGU</option>
+                    <option value="etctelecom">알뜰폰</option></td>
+                
+            </tr>
+            <tr>
+                <td>휴대폰 번호</td>
+                <td ></select><input type="text" name="number" placeholder="-빼고 숫자만 쓰시오."></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </table>
+    </form>
+</body>
+
+</html>
